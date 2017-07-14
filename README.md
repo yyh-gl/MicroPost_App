@@ -4,41 +4,42 @@
 ## Purpose
    ・Rails Tutorialに沿ってTwitterライクなサービスを開発
   
-## License
+## ライセンス
 
-All source code in the Ruby on Rails Tutorial is available jointly under the MIT License and the Beerware License.
-See LICENSE.md for details.
+[Ruby on Rails チュートリアル](http://railstutorial.jp/)内にあるすべてのソースコードは
+MIT ライセンスと Beerware ライセンスのもとに公開されています。
+詳細は [LICENSE.md](LICENSE.md) をご覧ください。
 
-## How to use
+## 使い方
 
-To get started with the app, clone the repo and then install the needed gems:
+このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
+その後、次のコマンドで必要になる RubyGems をインストールします。
 
 ```
 $ bundle install --without production
 ```
 
-Next, migrate the database:
+その後、データベースへのマイグレーションを実行します。
 
 ```
 $ rails db:migrate
 ```
 
-Finally, run the test suite to verify that everything is working correctly:
+最後に、テストを実行してうまく動いているかどうか確認してください。
 
 ```
 $ rails test
 ```
 
-If the test suite passes, you'll be ready to run the app in a local server:
+テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
 
 ```
 $ rails server
 ```
 
-For more information, see the Ruby on Rails Tutorial book.
+詳しくは、[*Ruby on Rails チュートリアル*](http://railstutorial.jp/)を参考にしてください。
 
-
-## System overview
+## システム要件
 
 * Ruby version
 

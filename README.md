@@ -6,38 +6,36 @@
   
 ## License
 
-[Ruby on Rails チュートリアル](http://railstutorial.jp/)内にあるすべてのソースコードは
-MIT ライセンスと Beerware ライセンスのもとに公開されています。
-詳細は [LICENSE.md](LICENSE.md) をご覧ください。
+All source code in the Ruby on Rails Tutorial is available jointly under the MIT License and the Beerware License.
+See LICENSE.md for details.
 
 ## How to use
 
-このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
-その後、次のコマンドで必要になる RubyGems をインストールします。
+To get started with the app, clone the repo and then install the needed gems:
 
 ```
 $ bundle install --without production
 ```
 
-その後、データベースへのマイグレーションを実行します。
+Next, migrate the database:
 
 ```
 $ rails db:migrate
 ```
 
-最後に、テストを実行してうまく動いているかどうか確認してください。
+Finally, run the test suite to verify that everything is working correctly:
 
 ```
 $ rails test
 ```
 
-テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
+If the test suite passes, you'll be ready to run the app in a local server:
 
 ```
 $ rails server
 ```
 
-詳しくは、[*Ruby on Rails チュートリアル*](http://railstutorial.jp/)を参考にしてください。
+For more information, see the Ruby on Rails Tutorial book.
 
 
 ## System overview

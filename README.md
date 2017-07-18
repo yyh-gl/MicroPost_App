@@ -59,12 +59,9 @@ $ rails server
 
 * Deployment instructions
 
-* Git
+## Gitの運用方法
 
-  - Git Flow
-  
-    -- master
-
-  	-- develop
-
-	-- feature
+### Git Flow
+- master
+- develop
+- feature/???

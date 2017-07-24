@@ -1,4 +1,3 @@
-# coding: utf-8
 module ApplicationHelper
   # provide full titol for each page.
   def full_title(page_title = '')

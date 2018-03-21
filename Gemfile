@@ -11,6 +11,8 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.6.1'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt',         '3.1.11'
+gem 'loofah', '~> 2.2.1'
+gem 'nokogiri', '~> 1.8.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
